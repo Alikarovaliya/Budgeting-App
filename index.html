@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <div class="all">
+      <div class="Bhead">Budgeting App</div>
+      <div>
+        <br />
+        <br />
+        <label for="">Add Budget</label>
+        <input
+          type="number"
+          placeholder="Enter monthly budget"
+          id="Add Budget"
+        />
+        <button class="btn" onclick="AddBudget()">ADD budget</button>
+      </div>
+      <br />
+      <div>
+        <label for="">Add Expenses</label>
+        <input type="number" placeholder="Enter Amount" id="expenseAmount" />
+        <br />
+        <br />
+        <label for="">Expense date: </label>
+        <input type="date" id="expensedate" />
+
+        <br />
+        <br />
+        <label for="">Category: </label>
+        <select id="Category" name="country" class="cr">
+          <option value="Restaurants & Cafe" class="cr">
+            Restaurants & Cafe
+          </option>
+          <option value="Clothes & Shopping" class="cr">
+            Clothes & Shopping
+          </option>
+          <option value="Credit & Loans" class="cr">Credit & Loans</option>
+          <option value="Gifts cards" class="cr">Gifts cards</option>
+        </select>
+        <br />
+        <br />
+        <label for="">Discription: </label>
+        <input
+          type="text"
+          placeholder="Add Discription"
+          id="expenseDescription"
+        />
+
+        <br />
+        <br />
+        <button onclick="AddExpences()">ADD Expences</button>
+        <button onclick="CalculateBalance()">calculate</button>
+      </div>
+      
+          <table id="myTable1" border="1"  >
+            <tr>
+              <th>Discription</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Category</th>
+            
+            </tr>
+          </table>
+        </div>
+    
+      <br />
+
+      <div id="result">
+        <table id="myTable" border="1">
+          <tr>
+            <th>Budget</th>
+            <th>Expense</th>
+            <th>Balance</th>
+            
+          </tr>
+          <tr>
+            <td id="setbudget"></td>
+            <td id="setExpense"></td>
+            <td id="setbalance"></td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- <table id="myTable">
+        <tr>
+          <th>Expense</th>
+          <th>Budget</th>
+          <th>Balance</th>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>30</td>
+          <td>20</td>
+        </tr>
+      </table> -->
+
+      <!-- <table id="ff">
+        <tr id="myTr">
+          <td>10</td>
+        </tr>
+      </table> -->
+    </div>
+  </body>
+</html>

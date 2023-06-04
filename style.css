@@ -1,0 +1,50 @@
+.Bhead{
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    
+}
+.all{
+    position: relative;
+
+    text-align: center;
+}
+
+#result {
+    height: 200px;
+    width: 680px;
+    background-color: #3857f3;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 604px;
+}
+
+.add-onebyone{
+  
+    width: 680px;
+    background-color: #3857f3;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
+}
+  
+
+#myTable , tr{
+    color: white;
+    width: 680px;
+    text-align: center;
+    
+}
+
+#myTable1{
+    color: white;
+    width: 680px;
+    background-color: #3857f3;
+    margin-left: 611px;
+    margin-top: 50px;
+    
+}
+    
+
+
